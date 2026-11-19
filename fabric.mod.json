@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "aimassist",
+  "version": "1.0.0",
+  "name": "Aim Assist",
+  "description": "Client-side aim assist for 1.21.4",
+  "authors": ["olivia"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.aimassist.AimAssistClient"]
+  },
+  "mixins": [
+    "aimassist.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
